@@ -20,7 +20,7 @@ const Wrapper = styled(Paper)(({ theme }) => ({
     "0px 10px 20px -3px rgba(145, 158, 171, 0.05), 0px 0px 2px 0px rgba(145, 158, 171, 0.20)",
 }));
 
-const tabsData = ["Product Details", "Reviews"];
+const tabsData = ["Thông tin", "Đánh giá"];
 
 const Tab = ({ item, selected, handleClick }) => {
   return (

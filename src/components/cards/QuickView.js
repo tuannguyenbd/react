@@ -132,7 +132,7 @@ const QuickView = ({
                 <Loading color={theme.palette.neutral[100]} />
               </IconButtonStyled>
             ) : (
-              <PrimaryToolTip text="Add to cart">
+              <PrimaryToolTip text="Thêm vào giỏ">
                 <IconButtonStyled onClick={(e) => cartAddToCartClick?.(e)}>
                   <ShoppingBagIcon />
                 </IconButtonStyled>

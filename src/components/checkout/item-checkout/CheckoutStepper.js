@@ -105,13 +105,13 @@ const CheckoutStepper = () => {
   const [actStep, setActStep] = useState(2);
   const steps = [
     {
-      label: "Add To Cart",
+      label: "Thêm vào giỏ",
     },
     {
-      label: "Fill details",
+      label: "Giao hàng",
     },
     {
-      label: "Confirmation",
+      label: "Xác nhận",
     },
   ];
   return (

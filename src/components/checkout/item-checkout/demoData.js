@@ -1,2 +1,2 @@
-export const productUnavailableData = ['Remove it form my cart', 'I will wait until it is restocked', 'Please cancel the order', 'Call me ASAP', 'Notify me when it is back']
-export const deliveryInstructions = ['Deliver to the front door', 'Deliver to the reception desk', 'Avoid calling phone', 'Come with no sound']
+export const productUnavailableData = ['Xóa nó khỏi giỏ hàng', 'Tôi sẽ đợi cho đến khi có', 'Vui lòng hủy đơn hàng', 'Gọi cho tôi sớm', 'Thông báo cho tôi khi có hàng']
+export const deliveryInstructions = ['Giao hàng đến tận cửa', 'Giao hàng đến quầy lễ tân', 'Tránh gọi điện thoại', 'Nhắn tin trước khi đến']

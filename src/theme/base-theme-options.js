@@ -256,7 +256,7 @@ export const baseThemeOptions = {
     fontFamily: '"Roboto","sans-serif"',
     //this is default font size for typography
     body1: {
-      fontSize: "0.875rem",
+      fontSize: "16px",
       fontWeight: 400,
       lineHeight: 1.5,
     },

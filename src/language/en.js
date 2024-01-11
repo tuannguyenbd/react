@@ -1154,4 +1154,12 @@ export const english = {
   "Add Custom Note": "Add Custom Note",
   "Instructions": "Instructions",
   "Note must not be grater than 191 characters": "Note must not be grater than 191 characters",
+  "Continue Shopping": "Continue Shopping",
+  "Proceed To Checkout": "Proceed To Checkout",
+  "Proceed to Checkout": "Proceed To Checkout",
+  "Additional Information": "Additional Information",
+  "Label Name(Optional)": "Label Name(Optional)",
+  "Road": "Road",
+  "Minimum Order": "Minimum Order",
+  "View Less": "View Less",
 };

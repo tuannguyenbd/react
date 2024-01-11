@@ -577,7 +577,7 @@ const ItemCheckout = (props) => {
   };
   const storeCloseToast = () =>
     toast.error(
-      t(`${getStoresOrRestaurants().slice(0, -1)} is closed. Try again later.`)
+      t(`${getStoresOrRestaurants().slice(0, -1)} đã đóng cửa. Thử lại sau.`)
     );
   //totalAmount
   const handlePlaceOrderBasedOnAvailability = () => {
@@ -980,12 +980,12 @@ const ItemCheckout = (props) => {
                     <Cutlery isChecked={cutlery} handleChange={handleCutlery} />
                   )}
                   <ItemSelectWithChip
-                    title="If Any Product is not available"
+                    title="Nếu sản phẩm không có sẵn"
                     data={productUnavailableData}
                     handleChange={handleItemUnavailableNote}
                   />
                   <ItemSelectWithChip
-                    title="Add More Delivery Instruction"
+                    title="Thêm hướng dẫn giao hàng"
                     data={deliveryInstructions}
                     handleChange={handleDeliveryInstructionNote}
                   />
@@ -1046,8 +1046,8 @@ const ItemCheckout = (props) => {
                 payableAmount={payableAmount}
                 agree={agreeToWallet}
                 reject={notAgreeToWallet}
-                colorTitle=" Want to pay via your wallet ? "
-                title="You can pay the full amount with your wallet."
+                colorTitle=" Muốn thanh toán qua ví của bạn? "
+                title="Bạn có thể thanh toán toàn bộ số tiền bằng ví."
                 remainingBalance={
                   customerData?.data?.wallet_balance - payableAmount
                 }
@@ -1063,8 +1063,8 @@ const ItemCheckout = (props) => {
                 payableAmount={payableAmount}
                 agree={agreeToPartial}
                 reject={notAgreeToPartial}
-                colorTitle=" Want to pay partially with wallet ? "
-                title="You do not have sufficient balance to pay full amount via wallet."
+                colorTitle=" Muốn thanh toán một phần bằng ví? "
+                title="Bạn không có đủ số dư để thanh toán số tiền qua ví."
               />
             </CustomModal>
           )}

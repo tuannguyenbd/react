@@ -26,7 +26,7 @@ const DeliveryManTip = ({
   const theme = useTheme();
   const [fieldValue, setFieldValue] = useState(deliveryTip);
   const [isCustom,setIsCustom]=useState(false)
-  const deliveryTips = [0, 10, 15, 20, 40];
+  const deliveryTips = [0, 5000, 10000, 15000, 20000];
   const { t } = useTranslation();
 
   const debouncedSetInputValue = debounce((value) => {
